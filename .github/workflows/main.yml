@@ -24,4 +24,4 @@ jobs:
         url: 'https://api.getbeamer.com/v0/posts'
         method: 'POST'
         customHeaders: '{ "Beamer-Api-Key" : "${{ secrets.BEAMER_API_KEY }}" }'
-        data: '{ "title": [ "${{github.repository}} Updated!" ], "content": [ "We just updated ${{github.repository}}. Check it out!" ], "category": "new",  }'
+        data: '{ "title": [ "${{github.repository}} Updated!" ], "content": [ "We just updated ${{github.repository}}. Check it out!" ], "category": "new"  }'
