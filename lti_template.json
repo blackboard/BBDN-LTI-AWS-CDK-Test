@@ -1,0 +1,13 @@
+{
+    "deployments" : [
+        {
+            "deployment_id": "b7662cbe-111b-4739-b1d2-da9b463ffbfb",
+            "client_id": "6ffa6455-4ff9-4d42-a82c-036539a7244e",
+            "issuer": "https://blackboard.com",        
+            "auth_login_url": "https://developer.blackboard.com/api/v1/gateway/oidcauth",
+            "auth_token_url": "https://developer.blackboard.com/api/v1/gateway/oauth2/jwttoken",
+            "key_set_url": "https://developer.blackboard.com/api/v1/management/applications/6ffa6455-4ff9-4d42-a82c-036539a7244e/jwks.json",
+            "default": true
+        }
+    ]    
+}
