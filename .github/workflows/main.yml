@@ -24,4 +24,4 @@ jobs:
         url: 'https://api.getbeamer.com/v0/posts/'
         method: 'POST'
         customHeaders: 'Beamer-Api-Key: ${{ secrets.BEAMER_API_KEY }}'
-        data: '{ "title": [ "${{GITHUB_REPOSITORY}} Updated!" ], "content": [ "We just updated ${{GITHUB_REPOSITORY}}. Check it out!" ], "category": "new", "publish": true, "linkUrl": [ ${{GITHUB_SERVER_URL}} ], "linkText": [ ${{GITHUB_REPOSITORY}} ], "enableReactions": true, "enableSocialShare": true }'
+        data: '{ "title": [ "$GITHUB_REPOSITORY Updated!" ], "content": [ "We just updated $GITHUB_REPOSITORY. Check it out!" ], "category": "new", "publish": true, "linkUrl": [ "$GITHUB_SERVER_URL" ], "linkText": [ "$GITHUB_REPOSITORY" ], "enableReactions": true, "enableSocialShare": true }'
